@@ -20,8 +20,8 @@ body{
     display: flex;
     height: 100vh;
     background: url('/Imgs/background.svg') no-repeat top center ;
-
     background-size: contain;
+    background-color:#e0e8ff;
     justify-content: center;
     align-items: center;
 
