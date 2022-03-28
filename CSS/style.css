@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins';
+}
+.card__img img {
+    width: 400px;
+    height: 11rem;
+    border-top-left-radius:13px ;
+    border-top-right-radius: 13px;
+}
+
+.main__container{
+    display: flex;
+    height: 100vh;
+<<<<<<< HEAD
+    background: url('/Imgs/background.svg') no-repeat ;
+=======
+    background: url('Imgs/pattern-background-desktop.svg') no-repeat   fixed ;
+>>>>>>> 88850a206866ed045debb6303f2dea3b1a2b16e9
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card_img img{
+    width: 300px;
+}
+.card__container{
+    display: flex;
+    height: 600px;
+    width: 400px;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.049),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.075),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.088),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.097),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.104),
+  100px 100px 80px rgba(0, 0, 0, 0.11)
+;
+
+}
+.card__text h2{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 900;
+}
+.txt{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    color:grey;
+    margin-bottom: 18px;
+}
+.pricing__section{
+    background-color: aliceblue;
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 22px;
+    border-radius: 15px;
+}
+.plan{
+    
+    font-weight: 800;
+    font-size: 18px;
+}
+.price{
+    color: grey;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.link a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.8rem;
+}
+.payment__button button{
+    width: 300px;
+    height: 3rem;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgb(30, 30, 180);
+    box-shadow:
+  8.1px 7.8px 5.3px rgba(0, 0, 0, 0.092),
+  31.5px 30px 17.9px rgba(0, 0, 0, 0.134),
+  105px 100px 80px rgba(0, 0, 0, 0.18)
+;
+border: none;
+
+}
+.payment__button button:hover{
+    background-color: blueviolet;
+    transform: translateX(-10px);
+    transform: translateY(-10px);
+    transition: all linear 1s;
+}
+.cancel__btn button{
+    margin-top: 15px;
+    height: 3rem;
+    width: 10rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: grey;
+    font-weight:  500 ;
+}
+.cancel__btn button:hover{
+    /* font-size: 1.5rem; */
+    transform: translateX(-1.5em);
+    transition: all linear 0.8s ;
+    /* transition-delay: 1s; */
+}
+
+
+
