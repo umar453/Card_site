@@ -19,12 +19,9 @@ body{
 .main__container{
     display: flex;
     height: 100vh;
-<<<<<<< HEAD
-    background: url('/Imgs/background.svg') no-repeat ;
-=======
-    background: url('Imgs/pattern-background-desktop.svg') no-repeat   fixed ;
->>>>>>> 88850a206866ed045debb6303f2dea3b1a2b16e9
-    background-size: cover;
+    background: url('/Imgs/background.svg') no-repeat top center ;
+
+    background-size: contain;
     justify-content: center;
     align-items: center;
 
