@@ -16,7 +16,7 @@ body{
     border-top-right-radius: 13px;
 }
 
-.main__container{
+main{
     display: flex;
     height: 100vh;
     background: url('/Imgs/background.svg') no-repeat top center ;
@@ -24,7 +24,6 @@ body{
     background-color:#e0e8ff;
     justify-content: center;
     align-items: center;
-
 
 }
 .card_img img{
